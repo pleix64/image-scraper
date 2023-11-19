@@ -1,0 +1,9 @@
+*.txt
+*.json
+*.jsonl
+*~
+*.swp
+*.swo
+data/
+test_runs/
+**/__pycache__/
