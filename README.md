@@ -6,4 +6,20 @@ The scraper is based on the Scrapy framework, and using Selenium for automatical
 ## Installation
 (to be added later)
 ## Usage
-(to be added later) 
+Change directory to the Image Scraper project root directory, 
+```
+cd /path/to/image_scraper
+```
+Create new directory for storing images if you haven't done so, 
+```
+mkdir data
+```
+or name it as whatever you like, but you have to change the value of variable `IMAGES_STORE` in `image_scraper/settings.py` accordingly. 
+Activate the virtual environment, 
+```
+pipenv shell
+```
+To scrape images, run a spider:
+```
+scrapy crawl [spiderName]
+```
