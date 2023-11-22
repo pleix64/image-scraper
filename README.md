@@ -25,7 +25,7 @@ To scrape images, run a spider:
 ```
 scrapy crawl [spiderName]
 ```
-Quit the virtual environment when you've done the scraping, 
+Quit the virtual environment when you've done scraping, 
 ```
 deactivate
 ```
